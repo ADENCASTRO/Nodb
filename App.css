@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url('./assets/teeTime.jpg.jfif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+  font-family: Arial, sans-serif; 
+}
+
+form {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 30rem; 
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+.entries {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.entries ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.entries li {
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.entries button {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.entries button:hover {
+  background-color: darkred;
+}
